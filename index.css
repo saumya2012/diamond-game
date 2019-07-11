@@ -1,0 +1,46 @@
+.row {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.grid-item {
+    border: 1px solid #000;
+    min-width: 50px;
+    min-height: 50px;
+}
+
+.diamond {
+    background-image: url('./assets/diamond.svg');
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.question {
+    background-image: url('./assets/question.svg');
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.hint-top {
+    background-image: url('./assets/top-arrow.svg');
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.hint-right {
+    background-image: url('./assets/right-arrow.svg');
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.hint-bottom {
+    background-image: url('./assets/bottom-arrow.svg');
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.hint-left {
+    background-image: url('./assets/left-arrow.svg');
+    background-repeat: no-repeat;
+    background-position: center;
+}
